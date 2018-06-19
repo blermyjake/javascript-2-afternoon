@@ -70,7 +70,12 @@ favoriteThings.food = "Chicken Nuggets";
 */
 
 //Code here
+var backPack = {};
 
+var item = "firstPocket";
+backPack["firstPocket"] = item
+backPack.firstPocket = "chapstick"
+backPack.color = "red"
 
 
 /*
@@ -78,6 +83,7 @@ favoriteThings.food = "Chicken Nuggets";
 */
 
 //Code here
+// alert(backPack);
 
 
 
@@ -88,6 +94,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack);
 
 
 
@@ -111,6 +118,7 @@ var user2 = {
 */
 
 //Code Here
+user2.name = 'Tyler S. McGinnis', user2.email = 'tyler.mcginnis@devmounta.in';
 
 
 
