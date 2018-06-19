@@ -142,7 +142,7 @@ user2.name = 'Tyler S. McGinnis', user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
+let methodCollection = {};
 
 
 /*
@@ -151,7 +151,8 @@ user2.name = 'Tyler S. McGinnis', user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
+methodCollection.alertHello = function(){alert("hello")};
+methodCollection.logHello = function(){console.log('hello')};
 
 
 /*
@@ -159,7 +160,8 @@ user2.name = 'Tyler S. McGinnis', user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 ////////// PROBLEM 6 //////////
@@ -171,6 +173,15 @@ user2.name = 'Tyler S. McGinnis', user2.email = 'tyler.mcginnis@devmounta.in';
 
 //Code Here
 
+function makePerson(name, birthday, ssn){
+  let newGuy = {
+    name: name,
+    birthday: birthday,
+    ssn: ssn
+  };
+  return newGuy;
+}
+
 
 
 ////////// PROBLEM 7 //////////
@@ -181,5 +192,12 @@ user2.name = 'Tyler S. McGinnis', user2.email = 'tyler.mcginnis@devmounta.in';
 */
 
 //Code Here
-
+function makeCard(cardNumber, expirationDate, securityCode){
+  let obj = {
+    cardNumber: cardNumber,
+    expirationDate: expirationDate,
+    securityCode: securityCode
+  };
+  return obj;
+}
 
